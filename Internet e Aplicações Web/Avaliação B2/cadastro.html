@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instituto Delta - Formulário de Associação</title>
+    </head>
+    <body>
+        <font face="arial">
+            <fieldset>
+                <img src="Imagens/institutodelta.png" alt="Logo do Instituto Delta" height="110px" width="120px" align="left"><br>
+                <h1 align="bottom">Formulário de Associação</h1>
+            </fieldset><br>
+            <fieldset>
+                <a href="home.html">Home</a>&nbsp;&nbsp;
+                <a href="cadastro.html">Cadastro</a>&nbsp;&nbsp;
+                <a href="">Pagamento</a>
+            </fieldset><br>
+        </font>
+        <fieldset>
+            <fieldset>
+                <legend align="center">DADOS PESSOAIS</legend>
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td>CPF:</td>
+                            <td><input type="text" size="11">&nbsp;(apenas números)</td>
+                            <td>Nascimento:</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Nome:</td>
+                            <td><input type="text" size="54"></td>
+                            <td>Naturalidade:</td>
+                            <td><input type="text"> <select name="estado"><option value="pi">PI</option></select></td>
+                        </tr>
+                        <tr>
+                            <td>Nacionalidade:</td>
+                            <td><input type="text" placeholder="Brasileira"></td>
+                            <td>Estado Civil:</td>
+                            <td><select name="estadocivil"><option value="estadocivil1">Casado</option></select></td>
+                        </tr>
+                        <tr>
+                            <td>Tipo associação:</td>
+                            <td><select name="estuante" ><option value="associacao">Estudante (R$ 15,00 por ano)</option></select></td>
+                            <td>Instituição:</td>
+                            <td><input type="text">&nbsp;(universidade, faculdade, empresa etc.)</td>
+                        </tr>
+                        <tr>
+                            <td>RG:</td>
+                            <td><input type="text" size="20"> Emissor RG: <input type="text" size="15"></td>
+                            <td>Profissão:</td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset><br>
+            <fieldset>
+                <legend align="center">DADOS PARA CONTATO</legend>
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td>Logradouro:</td>
+                            <td><input type="text" size="56"></td>
+                            <td>Número:</td>
+                            <td><input type="text" size="5"></td>
+                        </tr>
+                        <tr>
+                            <td>Complemento:</td>
+                            <td><input type="text" size="56"></td>
+                            <td>Bairro:</td>
+                            <td><input type="text" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>CEP:</td>
+                            <td><input type="text" size="20">&nbsp;(apenas números)</td>
+                            <td>Cidade:</td>
+                            <td><input type="text" size="30"> <select name="piaui"><option value="pi">PI</option></select></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td><input name="email" type="email" size="56"></td>
+                            <td>Telefone:</td>
+                            <td><input name="tel" type="tel" size="2"> <input name="tel" type="tel" size="9"></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset><br>
+            <input type="submit" name="confirma" value="Confirmar"><br><br><br><br>
+        </fieldset><br>
+        <fieldset><font face="arial">&copy; 2015 Instituto Delta. All rights reserved.</font></fieldset>
+    </body>
+</html>
